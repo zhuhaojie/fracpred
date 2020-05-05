@@ -1,16 +1,16 @@
 # fracpred
 **This R package is to predict the first dimension fractions containing target peptides in a 2D LC-MS/MS proteomics analysis.** 
 
-To use the package, you first need to install the devtools package.
+To use the package, you first need to install the devtools and tidyverse packages.
 ```
-install.packages("devtools")
+install.packages(c("devtools", "tidyverse"))
 ```
 
 Load the devtools package.
 ```
 library(devtools)
 ```
-Install the "fracpred" package from GitHub
+Install the fracpred package from GitHub.
 ```
 install_github("zhuhaojie/fracpred")
 ```
@@ -20,7 +20,7 @@ Load the fracpred package.
 library(fracpred)
 ```
 
-Use the "fracpred" function to predict the rentention times of the peptides of interest
+Use the "fracpred" function to predict the rentention times of the peptides of interest.
 ```
 fracpred()
 ```
