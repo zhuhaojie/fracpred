@@ -7,16 +7,23 @@ install.packages("devtools")
 ```
 
 Load the devtools package.
-'library(devtools)'
-
+```
+library(devtools)
+```
 Install the "fracpred" package from GitHub
-'install_github("zhuhaojie/fracpred")'
+```
+install_github("zhuhaojie/fracpred")
+```
 
 Load the fracpred package.
-'library(fracpred)'
+```
+library(fracpred)
+```
 
 Use the "fracpred" function to predict the rentention times of the peptides of interest
-'fracpred()'
+```
+fracpred()
+```
 
 Please note that the CSV files should at least contain "Peptide Sequence" and "Peptide Retention Time" columns. 
 The files can be exported from the Skyline software. 
