@@ -1,8 +1,10 @@
 # fracpred
 **This R package is to predict the first dimension fractions containing target peptides in a 2D LC-MS/MS proteomics analysis.** 
 
-To use the package, you first need to install the devtools package. 
-'install.packages("devtools")'
+To use the package, you first need to install the devtools package.
+```
+install.packages("devtools")
+```
 
 Load the devtools package.
 'library(devtools)'
